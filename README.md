@@ -106,14 +106,14 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📚 Deliverables & Documentation
+## 📚 Project Structure & Deliverables
 
-| File | Format | Description |
+| Path | Type | Description |
 | :--- | :---: | :--- |
-| **[`TECHNICAL_REPORT.docx`](./TECHNICAL_REPORT.docx)** | Word (.docx) | Comprehensive 11-section formal academic technical report for 20/20 marks evaluation. |
-| **[`TECHNICAL_REPORT.md`](./TECHNICAL_REPORT.md)** | Markdown | Markdown version of the technical report with full mathematical derivations and proofs. |
-| **[`evidence/test_results.csv`](./evidence/test_results.csv)** | CSV | Exhaustive empirical benchmark dataset across all 464 test scenarios. |
-| **[`run_experiments.py`](./run_experiments.py)** | Python | Automated benchmark script verifying all 16 message vectors under 0, 1, and 2-error channels. |
+| **[`TECHNICAL_REPORT.docx`](./TECHNICAL_REPORT.docx)** | Word (.docx) | Formal academic technical report (11 sections, mathematical proofs, and rubric). |
+| **[`frontend/`](./frontend)** | Next.js 14 App | Interactive visualizer, Venn diagram, live syndrome decoder, and exam solutions. |
+| **[`backend/`](./backend)** | FastAPI App | High-performance Python REST API server with GF(2) linear algebra engine. |
+| **[`docker-compose.yml`](./docker-compose.yml)** | Docker | 1-command container orchestration for backend and frontend. |
 
 ---
 
@@ -151,7 +151,7 @@ Appends an 8th overall parity bit $p_0 = \bigoplus_{i=1}^7 c_i$. Minimum distanc
 | **Visualisation/simulation or executable demo** | **5 Marks** | Interactive SVG Venn diagram, live syndrome table, 7-step wizard stepper, tactile bit flippers. |
 | **Technical explanation & interpretation** | **4 Marks** | Full algebraic proof of aliasing ($\text{col}_i \oplus \text{col}_j = \text{col}_k$), parity cancellation ($1 \oplus 1 = 0$), SDC breakdown. |
 | **Recorded technical presentation** | **3 Marks** | Structured chapter-by-chapter presentation narrative with timestamps and live UI walkthrough. |
-| **Supporting files and documentation** | **3 Marks** | FastAPI backend, 464-test benchmark suite, CSV evidence, Dockerfile, and formal technical report. |
+| **Supporting files and documentation** | **3 Marks** | FastAPI backend, full interactive Next.js app, Docker orchestration, and formal technical report. |
 
 ---
 

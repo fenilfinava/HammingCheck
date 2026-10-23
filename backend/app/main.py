@@ -215,7 +215,7 @@ def run_benchmark():
         "double_error_safe_rate": (stats["double_error_safe_corrected"] / stats["double_error_total"]) * 100,
         "double_error_aliased_rate": (stats["double_error_aliased"] / stats["double_error_total"]) * 100,
         "secded_double_detected_rate": (stats["secded_double_detected"] / stats["double_error_total"]) * 100,
-        "dataset_path": "evidence/test_results.csv"
+        "dataset_source": "In-memory real-time 464 simulation engine"
     }
 
 
