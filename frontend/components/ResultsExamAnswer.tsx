@@ -66,15 +66,6 @@ export default function ResultsExamAnswer() {
             <span>Technical Report (.docx)</span>
           </a>
 
-          <a
-            href="/PRESENTATION_SCRIPT.docx"
-            download="Presentation_Script_35min.docx"
-            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-800 border border-indigo-200 text-xs sm:text-sm font-bold shadow-2xs hover:shadow-xs transition-all duration-200 cursor-pointer"
-          >
-            <FileText className="w-4 h-4 text-indigo-600" />
-            <span>35-Min Script (.docx)</span>
-          </a>
-
           <button
             onClick={handleDownloadCSV}
             className="flex items-center gap-2 px-3.5 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-300 text-xs sm:text-sm font-semibold transition-all shadow-2xs cursor-pointer"

@@ -112,7 +112,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | :--- | :---: | :--- |
 | **[`TECHNICAL_REPORT.docx`](./TECHNICAL_REPORT.docx)** | Word (.docx) | Comprehensive 11-section formal academic technical report for 20/20 marks evaluation. |
 | **[`TECHNICAL_REPORT.md`](./TECHNICAL_REPORT.md)** | Markdown | Markdown version of the technical report with full mathematical derivations and proofs. |
-| **[`PRESENTATION_SCRIPT.docx`](./PRESENTATION_SCRIPT.docx)** | Word (.docx) | 30–35 minute master video presentation script with chapter timestamps, spoken English narration, and on-screen click instructions. |
 | **[`evidence/test_results.csv`](./evidence/test_results.csv)** | CSV | Exhaustive empirical benchmark dataset across all 464 test scenarios. |
 | **[`run_experiments.py`](./run_experiments.py)** | Python | Automated benchmark script verifying all 16 message vectors under 0, 1, and 2-error channels. |
 
@@ -151,7 +150,7 @@ Appends an 8th overall parity bit $p_0 = \bigoplus_{i=1}^7 c_i$. Minimum distanc
 | **Conceptual understanding & technical correctness** | **5 Marks** | $\text{GF}(2)$ arithmetic, $G$ ($4 \times 7$) & $H$ ($3 \times 7$) matrices, $d_{\min} = 3$ proof, Hamming sphere bound ($128 = 128$). |
 | **Visualisation/simulation or executable demo** | **5 Marks** | Interactive SVG Venn diagram, live syndrome table, 7-step wizard stepper, tactile bit flippers. |
 | **Technical explanation & interpretation** | **4 Marks** | Full algebraic proof of aliasing ($\text{col}_i \oplus \text{col}_j = \text{col}_k$), parity cancellation ($1 \oplus 1 = 0$), SDC breakdown. |
-| **Recorded technical presentation** | **3 Marks** | 35-minute calibrated video script in `PRESENTATION_SCRIPT.docx` with timestamps and click guidance. |
+| **Recorded technical presentation** | **3 Marks** | Structured chapter-by-chapter presentation narrative with timestamps and live UI walkthrough. |
 | **Supporting files and documentation** | **3 Marks** | FastAPI backend, 464-test benchmark suite, CSV evidence, Dockerfile, and formal technical report. |
 
 ---

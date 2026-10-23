@@ -184,7 +184,7 @@ def create_technical_report():
             "4. Recorded technical presentation",
             "3 Marks",
             "Professional, clear presentation with calibrated pacing, clear voice, on-screen actions matching spoken narration.",
-            "Calibrated 35-minute video presentation script in PRESENTATION_SCRIPT.docx with chapter-by-chapter timestamps and on-screen click instructions."
+            "Structured chapter-by-chapter presentation narrative with timestamps, audio-visual alignment, and on-screen walkthrough instructions documented in the technical report."
         ),
         (
             "5. Supporting files and documentation",
